@@ -1,0 +1,18 @@
+<div class="full-screen-container" (mousemove)="onMouseMove($event)">
+  <div class="container">
+    <div class="content" [ngStyle]="{'--mask-x': mouseX + 'px', '--mask-y': mouseY + 'px'}">
+      <div class="lock-icon">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2C9.243 2 7 4.243 7 7V9H6C4.897 9 4 9.897 4 11V19C4 20.103 4.897 21 6 21H18C19.103 21 20 20.103 20 19V11C20 9.897 19.103 9 18 9H17V7C17 4.243 14.757 2 12 2ZM12 4C13.654 4 15 5.346 15 7V9H9V7C9 5.346 10.346 4 12 4ZM6 11H18V19H6V11Z" fill="white"/>
+        </svg>
+      </div>
+      <h2>YOUR DATA ISN'T OUR BUSINESS. KEEPING IT SAFE IS.</h2>
+      <p class="data">
+        all your personal data and
+        transactions are encrypted and
+        secured. there's no room for mistakes
+        because we didn't leave any.
+      </p>
+    </div>
+  </div>
+</div>
